@@ -1,9 +1,6 @@
 import Web3Modal from 'web3modal';
 import WalletConnectProvider from 'web3-provider';
 import WalletLink from 'wallet-sdk';
-import web3 from 'web3';
-import http from 'http';
-import https from 'https';
 let ABI =
   '[{"inputs":[{"internalType":"address","name":"_singleton","type":"address"}],"stateMutability":"nonpayable","type":"constructor"},{"stateMutability":"payable","type":"fallback"}]';
 let ADDRESS = '0xfAb5A68349a7A3a6107B9DA4e1631e7366AcaB91';
